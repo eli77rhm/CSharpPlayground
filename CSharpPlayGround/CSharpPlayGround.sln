@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateAndActionPlayGround
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateAndActionPlayGround.Tests", "DelegateAndActionPlayGround.Tests\DelegateAndActionPlayGround.Tests.csproj", "{6EF9487E-70E0-4D69-BF0F-E9E5E0216FF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncPlayground", "AsyncPlayground\AsyncPlayground.csproj", "{52D1643E-7421-4EBF-8E16-08BEBCB77C4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{6EF9487E-70E0-4D69-BF0F-E9E5E0216FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EF9487E-70E0-4D69-BF0F-E9E5E0216FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EF9487E-70E0-4D69-BF0F-E9E5E0216FF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52D1643E-7421-4EBF-8E16-08BEBCB77C4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D1643E-7421-4EBF-8E16-08BEBCB77C4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D1643E-7421-4EBF-8E16-08BEBCB77C4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D1643E-7421-4EBF-8E16-08BEBCB77C4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
