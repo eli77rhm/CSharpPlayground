@@ -22,6 +22,25 @@ public class AsyncPricingService
 
         return fees.Sum();
     }
+    
+    public async Task<int> CalculateFeesAsyncAwait()
+    {
+        var watch = Stopwatch.StartNew();
+        
+        var  ticketFee = await GetTicketPriceAsync();
+        var insurranceFee = await  GetInsurrancePriceAsync();
+        var vatFee= await CalculateVatAsync();
+        var adminFee = await CalculateAdminFeeAsync();
+        
+        var fees = new[] { ticketFee, insurranceFee, vatFee, adminFee }; 
+        
+        watch.Stop();
+        Console.WriteLine($"Total time <CalculateFeesAwait>: {watch.ElapsedMilliseconds}ms");
+
+        
+
+        return fees.Sum();
+    }
 
     private async Task<int> GetTicketPriceAsync()
     {
